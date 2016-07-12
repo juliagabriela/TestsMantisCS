@@ -1,0 +1,35 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>TestsMantis</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TestsMantis</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="TestsMantis.csproj" File="TestsMantis.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BasePage.cs">BasePage.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BrowserType.cs">BrowserType.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Pages" TargetFolderName="Pages">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Create.cs">Create.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Delete.cs">Delete.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Edit.cs">Edit.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MyAccountPreferences.cs">MyAccountPreferences.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Reminder.cs">Reminder.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TestConfiguration.cs">TestConfiguration.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Util.cs">Util.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
